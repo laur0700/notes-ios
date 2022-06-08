@@ -17,6 +17,10 @@
 		D3242C8D28273D00000CB2E2 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C8C28273D00000CB2E2 /* NotesTests.swift */; };
 		D3242C9728273D00000CB2E2 /* NotesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C9628273D00000CB2E2 /* NotesUITests.swift */; };
 		D3242C9928273D00000CB2E2 /* NotesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242C9828273D00000CB2E2 /* NotesUITestsLaunchTests.swift */; };
+		D3242CA628273D22000CB2E2 /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242CA528273D22000CB2E2 /* NoteTableViewCell.swift */; };
+		D3242CAD28274496000CB2E2 /* NoteItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242CAB28274496000CB2E2 /* NoteItem+CoreDataClass.swift */; };
+		D3242CAE28274496000CB2E2 /* NoteItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3242CAC28274496000CB2E2 /* NoteItem+CoreDataProperties.swift */; };
+		D3D2C4CF284FBF97002F326D /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D2C4CE284FBF97002F326D /* NoteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		D3242C9228273D00000CB2E2 /* NotesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3242C9628273D00000CB2E2 /* NotesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITests.swift; sourceTree = "<group>"; };
 		D3242C9828273D00000CB2E2 /* NotesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3242CA528273D22000CB2E2 /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		D3242CAB28274496000CB2E2 /* NoteItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D3242CAC28274496000CB2E2 /* NoteItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NoteItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D3D2C4CE284FBF97002F326D /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +89,8 @@
 		D3242C6628273CFC000CB2E2 = {
 			isa = PBXGroup;
 			children = (
+				D3242CAB28274496000CB2E2 /* NoteItem+CoreDataClass.swift */,
+				D3242CAC28274496000CB2E2 /* NoteItem+CoreDataProperties.swift */,
 				D3242C7128273CFC000CB2E2 /* Notes */,
 				D3242C8B28273D00000CB2E2 /* NotesTests */,
 				D3242C9528273D00000CB2E2 /* NotesUITests */,
@@ -105,10 +115,12 @@
 				D3242C7428273CFC000CB2E2 /* SceneDelegate.swift */,
 				D3242C7628273CFC000CB2E2 /* ViewController.swift */,
 				D3242C7828273CFC000CB2E2 /* Main.storyboard */,
+				D3242CA528273D22000CB2E2 /* NoteTableViewCell.swift */,
 				D3242C7E28273CFF000CB2E2 /* Assets.xcassets */,
 				D3242C8028273CFF000CB2E2 /* LaunchScreen.storyboard */,
 				D3242C8328273CFF000CB2E2 /* Info.plist */,
 				D3242C7B28273CFC000CB2E2 /* Notes.xcdatamodeld */,
+				D3D2C4CE284FBF97002F326D /* NoteViewController.swift */,
 			);
 			path = Notes;
 			sourceTree = "<group>";
@@ -261,10 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3D2C4CF284FBF97002F326D /* NoteViewController.swift in Sources */,
 				D3242C7728273CFC000CB2E2 /* ViewController.swift in Sources */,
 				D3242C7328273CFC000CB2E2 /* AppDelegate.swift in Sources */,
+				D3242CAD28274496000CB2E2 /* NoteItem+CoreDataClass.swift in Sources */,
 				D3242C7528273CFC000CB2E2 /* SceneDelegate.swift in Sources */,
+				D3242CA628273D22000CB2E2 /* NoteTableViewCell.swift in Sources */,
 				D3242C7D28273CFC000CB2E2 /* Notes.xcdatamodeld in Sources */,
+				D3242CAE28274496000CB2E2 /* NoteItem+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
